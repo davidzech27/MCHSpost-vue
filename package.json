@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt-windicss": "^2.2.2",
+    "nuxt3": "3.0.0-27369360.33ebb01"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "0.1.8",
+    "@vueuse/core": "7.5.3",
+    "axios": "^0.24.0",
+    "cookie-session": "^2.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "mongoose": "^6.1.6",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "pinia": "2.0.9"
+  },
+  "name": "mchspost",
+  "description": "We recommend to look at the [documentation](https://v3.nuxtjs.org).",
+  "version": "1.0.0",
+  "main": "nuxt.config.js",
+  "author": "",
+  "license": "ISC"
+}
