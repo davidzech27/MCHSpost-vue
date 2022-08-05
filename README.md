@@ -1,29 +1,16 @@
-# Nuxt 3 Minimal Starter
+### Version of [MCHSpost](https://github.com/davidzech27/MCHSpost) before migrating from Vue to React
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
-
-## Setup
-
-Make sure to install the dependencies
-
+Install dependencies
 ```bash
 yarn install
 ```
 
-## Development
-
-Start the development server on http://localhost:3000
-
+Run dev server
 ```bash
 yarn run dev
 ```
 
-## Production
-
-Build the application for production:
-
+Build for production
 ```bash
 yarn build
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
